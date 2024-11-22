@@ -11,6 +11,9 @@ importers:
       '@hono/node-server':
         specifier: ^1.13.7
         version: 1.13.7(hono@4.6.11)
+      '@types/node':
+        specifier: ^20.11.17
+        version: 20.17.6
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
@@ -20,10 +23,6 @@ importers:
       ioredis:
         specifier: ^5.4.1
         version: 5.4.1
-    devDependencies:
-      '@types/node':
-        specifier: ^20.11.17
-        version: 20.17.6
       tsx:
         specifier: ^4.7.1
         version: 4.19.2
